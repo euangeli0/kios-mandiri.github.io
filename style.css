@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('img/background.png');
+    background-size: cover;
+    background-position: center;
+}
+
+
+header {
+    box-shadow: 0 2px 10px rgb(7, 7, 245);
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+}
+
+/* --- NAV --- */
+.navbar {
+    background-color: #1f1a54;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 5%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+/* --- LOGO --- */
+.logo {
+    border-radius: 30px;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: red;
+}
+
+.logo span {
+    color: #FFC107;
+}
+
+/* --- FITUR --- */
+.fitur {
+    background-color: red;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.fitur:hover {
+    transform: scaleY(1.2);
+    background-color: wheat;
+    color: red;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* --- KIOS --- */
+.kios {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.kios h1,
+h2 {
+    font-size: 7rem;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-shadow: 0 0 10px cyan, 0 0 20px cyan, 0 0 40px cyan, 0 0 80px cyan;
+}
+
+/* --- TEKS BERJALAN */
+.txt {
+    padding: 10px;
+    background: #1a1448;
+    box-shadow: yellow 0px 0px 20px, red 0px 0px 40px, red 0px 0px 80px;
+    color: cyan;
+    font-size: 2rem;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.txt span {
+    
+    color: red;
+}
